@@ -1,0 +1,21 @@
+{
+  "request_data": {
+    "inputs": {
+      "ExercisePrice": 80,
+      "RisklessRate": 0.1,
+      "StdDev": 0.4,
+      "StockPrice": 75,
+      "TimeToExpiry": 0.5
+    }
+  },
+  "request_meta": {
+    "version_id": "8e15cdcd-732c-415d-9963-4ac1b5491e47",
+    "transaction_date": "2022-06-09T02:45:43.482Z",
+    "call_purpose": "Spark - API Tester",
+    "source_system": "SPARK",
+    "correlation_id": "",
+    "requested_output": "",
+    "service_category": "",
+    "compiler_type": "NodeGen"
+  }
+}

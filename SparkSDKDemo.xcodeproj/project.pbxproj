@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521531E72965893E0070E51C /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 521531E62965893E0070E51C /* ZIPFoundation */; };
+		521F277C292E052D00763923 /* SparkSDKDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F277B292E052D00763923 /* SparkSDKDemoApp.swift */; };
+		521F277E292E052D00763923 /* NativeTestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F277D292E052D00763923 /* NativeTestScreen.swift */; };
+		521F2780292E052E00763923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521F277F292E052E00763923 /* Assets.xcassets */; };
+		521F2783292E052E00763923 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521F2782292E052E00763923 /* Preview Assets.xcassets */; };
+		52413FE3295334D40004DC16 /* WebTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52413FE2295334D40004DC16 /* WebTestViewModel.swift */; };
+		5248A5122A5E7D4900C706B0 /* SparkSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5248A5112A5E7D4900C706B0 /* SparkSDK */; };
+		529A1AB8292E05BD006771C9 /* inputs in Resources */ = {isa = PBXBuildFile; fileRef = 529A1AB4292E05BC006771C9 /* inputs */; };
+		529A1AB9292E05BD006771C9 /* NativeTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A1AB5292E05BC006771C9 /* NativeTestViewModel.swift */; };
+		529A1ABA292E05BD006771C9 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 529A1AB6292E05BD006771C9 /* assets */; };
+		529A1ABB292E05BD006771C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A1AB7292E05BD006771C9 /* Extensions.swift */; };
+		52F39D6B2949F44000964BFC /* WebTestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F39D6A2949F44000964BFC /* WebTestScreen.swift */; };
+		52F39D6D2949FDDA00964BFC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F39D6C2949FDDA00964BFC /* HomeScreen.swift */; };
+		52F39D702949FFDC00964BFC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F39D6F2949FFDC00964BFC /* WebView.swift */; };
+		52F39D73294A0E9600964BFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F39D72294A0E9600964BFC /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		529A1AC0292E0600006771C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		521F2778292E052D00763923 /* SparkSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521F277B292E052D00763923 /* SparkSDKDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkSDKDemoApp.swift; sourceTree = "<group>"; };
+		521F277D292E052D00763923 /* NativeTestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTestScreen.swift; sourceTree = "<group>"; };
+		521F277F292E052E00763923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521F2782292E052E00763923 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52413FE2295334D40004DC16 /* WebTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTestViewModel.swift; sourceTree = "<group>"; };
+		529A1AB4292E05BC006771C9 /* inputs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = inputs; sourceTree = "<group>"; };
+		529A1AB5292E05BC006771C9 /* NativeTestViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeTestViewModel.swift; sourceTree = "<group>"; };
+		529A1AB6292E05BD006771C9 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		529A1AB7292E05BD006771C9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		52F39D6A2949F44000964BFC /* WebTestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTestScreen.swift; sourceTree = "<group>"; };
+		52F39D6C2949FDDA00964BFC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		52F39D6F2949FFDC00964BFC /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		52F39D72294A0E9600964BFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521F2775292E052D00763923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521531E72965893E0070E51C /* ZIPFoundation in Frameworks */,
+				5248A5122A5E7D4900C706B0 /* SparkSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521F276F292E052D00763923 = {
+			isa = PBXGroup;
+			children = (
+				521F277A292E052D00763923 /* SparkSDKDemo */,
+				521F2779292E052D00763923 /* Products */,
+				529A1ACB292E062C006771C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		521F2779292E052D00763923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521F2778292E052D00763923 /* SparkSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521F277A292E052D00763923 /* SparkSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				52413FE429533B150004DC16 /* Screens */,
+				52F39D71294A0E7E00964BFC /* Utils */,
+				52F39D6E2949FFC400964BFC /* Components */,
+				521F277B292E052D00763923 /* SparkSDKDemoApp.swift */,
+				521F277F292E052E00763923 /* Assets.xcassets */,
+				529A1AB4292E05BC006771C9 /* inputs */,
+				529A1AB6292E05BD006771C9 /* assets */,
+				521F2781292E052E00763923 /* Preview Content */,
+			);
+			path = SparkSDKDemo;
+			sourceTree = "<group>";
+		};
+		521F2781292E052E00763923 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				521F2782292E052E00763923 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52413FE429533B150004DC16 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				52F39D6C2949FDDA00964BFC /* HomeScreen.swift */,
+				52413FE529533B200004DC16 /* NativeScreen */,
+				52413FE629533B3A0004DC16 /* WebViewScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		52413FE529533B200004DC16 /* NativeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				521F277D292E052D00763923 /* NativeTestScreen.swift */,
+				529A1AB5292E05BC006771C9 /* NativeTestViewModel.swift */,
+			);
+			path = NativeScreen;
+			sourceTree = "<group>";
+		};
+		52413FE629533B3A0004DC16 /* WebViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52F39D6A2949F44000964BFC /* WebTestScreen.swift */,
+				52413FE2295334D40004DC16 /* WebTestViewModel.swift */,
+			);
+			path = WebViewScreen;
+			sourceTree = "<group>";
+		};
+		529A1ACB292E062C006771C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52F39D6E2949FFC400964BFC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				52F39D6F2949FFDC00964BFC /* WebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52F39D71294A0E7E00964BFC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				529A1AB7292E05BD006771C9 /* Extensions.swift */,
+				52F39D72294A0E9600964BFC /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521F2777292E052D00763923 /* SparkSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521F2786292E052E00763923 /* Build configuration list for PBXNativeTarget "SparkSDKDemo" */;
+			buildPhases = (
+				521F2774292E052D00763923 /* Sources */,
+				521F2775292E052D00763923 /* Frameworks */,
+				521F2776292E052D00763923 /* Resources */,
+				529A1AC0292E0600006771C9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkSDKDemo;
+			packageProductDependencies = (
+				521531E62965893E0070E51C /* ZIPFoundation */,
+				5248A5112A5E7D4900C706B0 /* SparkSDK */,
+			);
+			productName = SparkSDKDemo;
+			productReference = 521F2778292E052D00763923 /* SparkSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521F2770292E052D00763923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					521F2777292E052D00763923 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 521F2773292E052D00763923 /* Build configuration list for PBXProject "SparkSDKDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521F276F292E052D00763923;
+			packageReferences = (
+				521531E52965893E0070E51C /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				5248A5102A5E7CEB00C706B0 /* XCRemoteSwiftPackageReference "Spark-iOS-swift-sdk" */,
+			);
+			productRefGroup = 521F2779292E052D00763923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521F2777292E052D00763923 /* SparkSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521F2776292E052D00763923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529A1AB8292E05BD006771C9 /* inputs in Resources */,
+				529A1ABA292E05BD006771C9 /* assets in Resources */,
+				521F2783292E052E00763923 /* Preview Assets.xcassets in Resources */,
+				521F2780292E052E00763923 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521F2774292E052D00763923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521F277E292E052D00763923 /* NativeTestScreen.swift in Sources */,
+				52F39D6B2949F44000964BFC /* WebTestScreen.swift in Sources */,
+				521F277C292E052D00763923 /* SparkSDKDemoApp.swift in Sources */,
+				52F39D6D2949FDDA00964BFC /* HomeScreen.swift in Sources */,
+				529A1AB9292E05BD006771C9 /* NativeTestViewModel.swift in Sources */,
+				529A1ABB292E05BD006771C9 /* Extensions.swift in Sources */,
+				52F39D702949FFDC00964BFC /* WebView.swift in Sources */,
+				52413FE3295334D40004DC16 /* WebTestViewModel.swift in Sources */,
+				52F39D73294A0E9600964BFC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		521F2784292E052E00763923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		521F2785292E052E00763923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521F2787292E052E00763923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SparkSDKDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = CXZH9EV98N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = global.coherent.SparkSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521F2788292E052E00763923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SparkSDKDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = CXZH9EV98N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = global.coherent.SparkSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521F2773292E052D00763923 /* Build configuration list for PBXProject "SparkSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521F2784292E052E00763923 /* Debug */,
+				521F2785292E052E00763923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521F2786292E052E00763923 /* Build configuration list for PBXNativeTarget "SparkSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521F2787292E052E00763923 /* Debug */,
+				521F2788292E052E00763923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		521531E52965893E0070E51C /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
+		5248A5102A5E7CEB00C706B0 /* XCRemoteSwiftPackageReference "Spark-iOS-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Coherent-Partners/Spark-iOS-swift-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		521531E62965893E0070E51C /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 521531E52965893E0070E51C /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		5248A5112A5E7D4900C706B0 /* SparkSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5248A5102A5E7CEB00C706B0 /* XCRemoteSwiftPackageReference "Spark-iOS-swift-sdk" */;
+			productName = SparkSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 521F2770292E052D00763923 /* Project object */;
+}

@@ -1,0 +1,70 @@
+{
+    "EngineInformation": {
+        "FileSize": 13773,
+        "Author": "vu.nguyen@coherent.global",
+        "ProductName": "XCallTest",
+        "Revision": "1.0.0",
+        "Description": null,
+        "FileMD5Hash": "F5B37572D96AB254F1872AEB28B3694E",
+        "UniversalFileHash": null,
+        "ReleaseDate": "2022-08-31T04:21:53.577Z",
+        "ServiceName": "UpstreamService_example",
+        "NoOfInstance": 1,
+        "UploaderEmail": "vu.nguyen@coherent.global",
+        "DefaultEngineType": "NodeGen",
+        "OriginalFileName": "UpstreamService_example.xlsx",
+        "SizeOfUploadedFile": 13773,
+        "ReleaseNote": null,
+        "IsTypeScriptFile": false,
+        "IsJsSheetEngineGenerated": false,
+        "EngineUpgradeType": "minor",
+        "PublicAPI": true,
+        "FileGuid": "4539bbe0-91fa-42f8-8756-0498d0fe899d",
+        "ServiceGuid": "be60d87c-a99a-481a-888f-4843e6631434",
+        "ServiceVersionGuid": "ba075f6c-ca1b-4680-8b82-9a19f71f3d66",
+        "BaseUrl": "https://excel.sit.coherent.global",
+        "Tenant": "coherent",
+        "AllowToStoreHistory": true,
+        "CalcMode": "AUTO",
+        "ForceInputsWriteBeforeCalcModeChanges": true,
+        "Provenance": null,
+        "VersionLabel": "UpstreamService_example",
+        "ExplainerType": "",
+        "IsXParameter": false,
+        "XParameterSetVersionId": "",
+        "VersionUpgradeAssert": "OFF"
+    },
+    "XInputTable": [],
+    "XOutputTable": [
+        {
+            "Output Name": "Spark_Output1",
+            "Description": null,
+            "Address": "C15"
+        },
+        {
+            "Output Name": "Spark_Response",
+            "Description": null,
+            "Address": "C14"
+        },
+        {
+            "Output Name": "Spark_Row1",
+            "Description": null,
+            "Address": "C16"
+        },
+        {
+            "Output Name": "Spark_Row3Key",
+            "Description": null,
+            "Address": "C17"
+        },
+        {
+            "Output Name": "Spark_Row3ValuePlus1",
+            "Description": null,
+            "Address": "C18"
+        }
+    ],
+    "FormsService": null,
+    "StaticService": null,
+    "VersionId": "ba075f6c-ca1b-4680-8b82-9a19f71f3d66",
+    "folder_name": "XCallTest",
+    "service_name": "UpstreamService_example"
+}

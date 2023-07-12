@@ -1,0 +1,61 @@
+{
+    "EngineInformation": {
+        "FileSize": 16930,
+        "Author": "vu.nguyen@coherent.global",
+        "ProductName": "XCallTest",
+        "Revision": "1.0.0",
+        "Description": null,
+        "FileMD5Hash": "956883C5D680CD4FF71EC70D2D7F37C8",
+        "UniversalFileHash": null,
+        "ReleaseDate": "2022-08-31T04:19:23.304Z",
+        "ServiceName": "DownstreamService_example",
+        "NoOfInstance": 1,
+        "UploaderEmail": "vu.nguyen@coherent.global",
+        "DefaultEngineType": "NodeGen",
+        "OriginalFileName": "DownstreamService_example.xlsx",
+        "SizeOfUploadedFile": 16930,
+        "ReleaseNote": null,
+        "IsTypeScriptFile": false,
+        "IsJsSheetEngineGenerated": false,
+        "EngineUpgradeType": "minor",
+        "PublicAPI": true,
+        "FileGuid": "f716f016-f7da-4214-8d31-515557580e49",
+        "ServiceGuid": "b17a7e10-ed4e-4124-a810-4ae610460b06",
+        "ServiceVersionGuid": "cf11d6fe-f8b4-41fb-8962-a59e0f102b8b",
+        "BaseUrl": "https://excel.sit.coherent.global",
+        "Tenant": "coherent",
+        "AllowToStoreHistory": true,
+        "CalcMode": "AUTO",
+        "ForceInputsWriteBeforeCalcModeChanges": true,
+        "Provenance": null,
+        "VersionLabel": "DownstreamService_example",
+        "ExplainerType": "",
+        "IsXParameter": false,
+        "XParameterSetVersionId": "",
+        "VersionUpgradeAssert": "OFF"
+    },
+    "XInputTable": [
+        {
+            "Input Name": "Input",
+            "Description": null,
+            "Address": "C2"
+        }
+    ],
+    "XOutputTable": [
+        {
+            "Output Name": "Output1",
+            "Description": null,
+            "Address": "C3"
+        },
+        {
+            "Output Name": "Output2",
+            "Description": null,
+            "Address": "B6:C11"
+        }
+    ],
+    "FormsService": null,
+    "StaticService": null,
+    "VersionId": "cf11d6fe-f8b4-41fb-8962-a59e0f102b8b",
+    "folder_name": "XCallTest",
+    "service_name": "DownstreamService_example"
+}

@@ -1,0 +1,15 @@
+{
+  "request_data": {
+    "inputs": {
+      "Input": 10
+    }
+  },
+  "request_meta": {
+    "version_id": "0211e8f0-9988-4514-a761-9782db6700ce",
+    "call_purpose": "Spark - API Tester",
+    "source_system": "SPARK",
+    "correlation_id": "",
+    "requested_output": null,
+    "service_category": ""
+  }
+}
